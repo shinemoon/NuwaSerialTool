@@ -1,0 +1,152 @@
+
+.timer {
+//	background: url("/images/binding_dark.png");
+	padding-top: 10px;
+	padding-bottom: 0px;
+//	color: white;
+	padding-left: 80px;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+
+.timer .flip-clock-label {
+   //color: white!important;
+   text-shadow: none;
+   font-family: "BebasNeueRegular"!important;
+   font-size: 15px!important;
+}
+
+.date {
+	font-family: 'BebasNeueRegular'!important;
+	font-size: 36px;
+	text-align: center;
+}
+
+.button-area {
+	padding-top:30px;
+	font-size:14px;
+	color:#555555;
+	text-shadow:#cccccc 1px 1px;
+}
+
+.button-area-2 {
+	padding-top:30px;
+	font-size:24px;
+	color:#555555;
+	text-shadow:#cccccc 1px 1px;
+}
+.button-area-2 div {
+	margin-bottom:10px;
+}
+
+
+
+.button-area div{
+	margin-bottom:10px;
+}
+
+.button-area div i:hover, .button-area-2 div i:hover{
+	text-shadow:#cccccc 2px 2px;
+}
+
+
+
+.button-area i, .button-area-2 i {
+	cursor:pointer;
+	margin-right:30px;
+}
+
+.display-area {
+	margin-top:20px;
+	background:rgba(171, 199, 8, 0.67); 
+/*	background:rgba(21, 21, 28, 0.8); */
+	color:#000;
+	border-radius:3px;
+	box-shadow:#666 1px 1px 1px;
+	height:100px;
+	margin-left:-10px!important;
+	font-size:14px;
+	padding-left:30px;
+	padding-top:20px;
+}
+
+.flip.play.busy {
+	opacity:0.5;
+}
+
+.icons-area{
+	text-align:center;
+	font-size:14px;
+	border: 1px solid grey;
+	height: 60px;
+	padding-top: 20px;
+	border-radius: 5px;
+	background:#555;
+	color:#bbb;
+}
+
+.icons-area i{
+	margin-right:10px;
+}
+.number-ind {
+	margin-left:20px;
+	margin-right:10px;
+}
+.ind.hit {
+	margin-right:30px;
+}
+
+.led-area {
+	text-align:center;
+	height:5px;
+}
+
+.led {
+	margin-right:50px;
+	opacity:0.8;
+}
+
+.fg-red.led.shining {
+	text-shadow:red 0px 5px 12px;
+	opacity:1.0;
+}
+
+.fg-green.led.shining {
+	text-shadow:green 0px 5px 12px;
+	opacity:1.0;
+}
+
+.fg-yellow.led.shining {
+	text-shadow:yellow 0px 5px 12px;
+	opacity:1.0;
+}
+
+.alarm {
+	position: fixed;
+	top: 90px;
+	right: 50px;
+	font-size: 24px!important;
+	color: rgb(235, 120, 140);
+}
+
+.alarm.shining {
+	text-shadow:pink 0px 5px 12px;
+}
+
+.beaker {
+	position: fixed;
+	top: 150px;
+	right: 50px;
+	font-size: 48px!important;
+	color: grey;
+	text-shadow: #eee 2px 5px 8px;
+	cursor:pointer;
+}
+
+.beaker:hover {
+	text-shadow: #eea 2px 3px 2px;
+}
+
+.date .busy {
+	opacity:0.5;
+}

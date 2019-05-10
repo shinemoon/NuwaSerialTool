@@ -1,0 +1,171 @@
+@font-face {
+	font-family: 'BebasNeueRegular';
+	src: url('/fonts/BebasNeue-webfont.eot');
+	src: url('/fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+	url('/fonts/BebasNeue-webfont.woff') format('woff'),
+	url('/fonts/BebasNeue-webfont.ttf') format('truetype'),
+	url('/fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body {
+	overflow:hidden;
+	background:#fff;
+}
+
+.metro h2 {
+	font-family:'BebasNeueRegular';
+}
+
+.main {
+	width:960px;
+	margin:auto;
+}
+
+.row.statusline {
+	margin-top:10px!important;
+}
+
+.control-panel {
+	margin-top:30px;
+	margin-left:10px;
+}
+
+.top-banner {
+	height:30px;
+	padding-top:6px;
+	margin-bottom:5px;
+	width:100%;
+	background:#eee;
+	padding-left:20px;
+	color:#000;
+	-webkit-app-region: drag;
+	font-size:15px;
+	font-style:italic!important;
+	font-weight:bold!important;
+}
+
+img.frame-icon {
+	float:right;
+	width:18px;
+	height:18px;
+	margin-bottom:3px;
+	margin-right:10px;
+	cursor:pointer;
+}
+
+.metro .balloon {
+	border-radius:5px;
+}
+
+.metro table {
+	background-color:#eee;
+}
+.metro .window.flat .caption {
+	background-color:#eee;
+}
+
+.metro .window.flat .caption .btn-close, .metro .window.flat .caption .btn-min, .metro .window.flat .caption .btn-max {
+	background-color:#666;
+	color:#ddd;
+}
+
+.metro h1 {
+	margin-left:20px;
+	cursor:pointer;
+}
+
+nav li {
+	cursor:pointer;
+}
+nav li:hover {
+	opacity:0.8;
+}
+
+.contenttab {
+	margin-top:20px;
+}
+
+.metro .tab-control .tabs>li a {
+	font-family:'BebasNeueRegular';
+}
+.metro .tab-control .tabs>li.active a {
+	border-bottom-color: #fff;
+	background-color: #fff;
+	border-top: 4px #abc708 solid;
+	border-left: 1px #abc708 solid;
+	border-right: 1px #abc708 solid;
+}
+.sign {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	font-size: 20px;
+	color: #ccc;
+}
+.sign span{
+	color:#abc708;
+	font-size: 24px;
+	font-weight:bold;
+	font-style:italic;
+	margin-right:5px;
+}
+
+.toolchain {
+	position:fixed;
+	right:50px;
+	bottom:80px;
+}
+
+.toolchain.tbottom {
+	position:fixed;
+	left:10px;
+	bottom:20px;
+}
+
+.toolchain.tbottom ul li{
+	margin-bottom:10px;
+	cursor:pointer;
+	font-size:12px;
+	color:grey;
+}
+.toolchain ul {
+	float:left;
+	list-style-type: none;
+}
+
+.toolchain ul li{
+	margin-bottom:20px;
+	cursor:pointer;
+}
+
+.toolchain ul li:hover{
+	opacity:0.5;
+}
+
+.metro .tab-control .frames {
+	border: 1px #abc708 solid;
+	height:490px;
+}
+
+button.confirm-single{
+	width:300px;	
+	margin-top:30px;
+}
+
+.config {
+	margin-top:20px;
+	width:350px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.config label {
+	margin-bottom:10px;
+}
+
+.metro .config label span.label {
+	font-size:14px;
+}

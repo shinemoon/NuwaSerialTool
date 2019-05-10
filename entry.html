@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Nuwa > Main </title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<script src="jquery.js" type="text/javascript"> </script>
+<script src="jquery-ui.js" type="text/javascript"> </script>
+<script src="utils.js" type="text/javascript"> </script>
+<script src="timeui.js" type="text/javascript"> </script>
+<script src="/plugins/flipclock.min.js" type="text/javascript"> </script>
+<script src="ui.js" type="text/javascript"> </script>
+<script src="entry.js" type="text/javascript"> </script>
+
+<link rel="stylesheet" type="text/css" href="metro/metro-bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="metro/metro-responsive.min.css" />
+<script src="metro/metro.min.js" type="text/javascript"> </script>
+<script src="js/metro-input-control.js" type="text/javascript"> </script>
+
+
+<link rel="stylesheet" type="text/css" href="entry.css" />
+<link rel="stylesheet" type="text/css" href="console.css" />
+<link rel="stylesheet" type="text/css" href="/plugins/flipclock.css" />
+<link rel="stylesheet" type="text/css" href="ui.css" />
+</head>
+
+<body class='metro' >
+<div class='grid main entry-block'>
+<div class="contenttab tab-control" data-role="tab-control">
+    <ul class="tabs">
+        <li class="active"><a href="#_page_1">Nuwa UI</a></li>
+        <li><a href="#_page_2">Serial Port Aid</a></li>
+        <!--li><a href="#_page_3">Nuwa Debugger</a></li-->
+    </ul>
+ 
+    <div class="frames">
+        <div class="frame" id="_page_1">
+		<div class='row'>
+			<div class='span2 button-area text-center'> 
+			<div><i class='icon-arrow-up-2'> </i> </div>
+			<div> <i class='icon-arrow-left-2'> </i> <i class='icon-arrow-right-2'> </i> </div>
+			<div><i class='icon-arrow-down-2'> </i> </div>
+			</div>
+
+			<div class='span1 button-area-2 text-center'> 
+			<div><i class='icon-grid'> </i> </div>
+			<div><i class='icon-checkbox'> </i> </div>
+			</div>
+
+
+			<div class='span8 timer'> 
+			</div>
+
+			<div class='icon-alarm alarm'></div>
+			<div class='icon-beaker beaker'></div>
+
+		</div>
+		<div class='row'>
+			<div class='span3 icons-area'> 
+			<span class='ind hit'>
+			<i class='icon-heart'></i>	
+			<span class='number-ind'> 7 </span>
+			</span>
+			<span class='ind mon'>
+			<i class='icon-IcoMoon'></i>	
+			<span class='number-ind'> 22 </span>
+			</span>
+			</div>
+			<div class='span8 date'> 
+			<span class='date-s'>20</span> <span class='month-s'>OCTOBER</span> <span class='year-s'>2014</span>
+			</div>
+		</div>
+		
+		<div class='row'>
+			<div class='span12 led-area'> 
+			<span class='fg-red led icon-minus-2'></span>
+			<span class='fg-green led icon-minus-2 shining'></span>
+			<span class='fg-yellow led icon-minus-2'></span>
+			</div>
+		</div>
+
+		<div class='row'>
+			<div class='span12 display-area'> 
+			</div>
+		</div>
+
+		</div>
+        <div class="frame" id="_page_2">
+		<div class=''>
+			<div class='span11 console'> <div class='headwelcome content-line'>* Welcome to use Nuwa debug tool! * </div></div>
+			<!-- tool chain -->
+			<div class='toolchain'> 
+			<ul>
+			<li> <i title="Clean" class="icon-cycle clean"></i></li>
+			<li> <i title="Setting" class="icon-cog set"></i></li>
+			<li> <i title="Exit" class="icon-exit exit"></i></li>
+			<!--li> <i title="Auto-Send" class="icon-chronometer auto"></i></li-->
+			</ul>
+			</div>
+		</div>
+
+		<div class=''>
+			<div class='span11 input'> <input class='sinput' placeholder="Command Input" autofocus=""> </div>
+		</div>
+		</div>
+        <!--div class="frame" id="_page_3">...</div-->
+    </div>
+</div>
+</div>
+
+<div class='sign'><span>C</span>laud </div>
+</body>
+
+</html><!DOCTYPE html>

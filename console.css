@@ -1,0 +1,32 @@
+.console {
+	height: 420px;
+	background: rgba(171,199,8,0.6);
+	color: black;
+	padding-left: 10px;
+	font-size: 14px;
+	line-height:20px;
+	padding-top: 10px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.input input{
+	margin-top:5px;
+	width:100%;
+	height:25px;
+	font-size:12px;
+	padding-left:10px;
+    border:#aaa  1px solid;
+}
+
+.input input:focus {
+     outline:none;
+     box-shadow: 0 0 8px #abc708;
+ }
+
+ .content-line.history{
+ 	color:#888;
+ }
+ .headwelcome {
+ 	color:black;
+ }
